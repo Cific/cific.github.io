@@ -334,21 +334,25 @@ time, mark, audio, video {
 #pricing .basic{
     position: relative;
     background: #558188;
+    padding-bottom: 40px;
 }
 
 #pricing .premium{
     position: relative;
     background: #5FA292;
+    padding-bottom: 40px;
 }
 
 #pricing .plus{
     position: relative;
     background: #558188;
+    padding-bottom: 40px;
 }
 
 #pricing .business{
     position: relative;
     background: #5FA292;
+    padding-bottom: 40px;
 }
 
 #pricing ul .icon{
@@ -356,6 +360,17 @@ time, mark, audio, video {
     height:10em;
     width: 10em;
     margin:1em auto;
+}
+
+.icon:before {
+    color: black;
+}
+
+.basic:hover .icon:before,
+.premium:hover .icon:before,
+.plus:hover .icon:before,
+.business:hover .icon:before {
+    color: #FF8B6C;
 }
 
 #pricing .basic .icon:before{
