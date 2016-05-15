@@ -256,196 +256,6 @@ header h1 {
 Pricing
 **************/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,800,700&subset=latin,cyrillic-ext);
-
-@font-face {
-    font-family: 'exo_2.0black';
-    src: url('../fonts/exo2.0-black.eot');
-    src: url('../fonts/exo2.0-black.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-black.woff') format('woff'),
-         url('../fonts/exo2.0-black.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0black_italic';
-    src: url('../fonts/exo2.0-blackitalic.eot');
-    src: url('../fonts/exo2.0-blackitalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-blackitalic.woff') format('woff'),
-         url('../fonts/exo2.0-blackitalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0bold';
-    src: url('../fonts/exo2.0-bold.eot');
-    src: url('../fonts/exo2.0-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-bold.woff') format('woff'),
-         url('../fonts/exo2.0-bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0bold_italic';
-    src: url('../fonts/exo2.0-bolditalic.eot');
-    src: url('../fonts/exo2.0-bolditalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-bolditalic.woff') format('woff'),
-         url('../fonts/exo2.0-bolditalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0extra_bold';
-    src: url('../fonts/exo2.0-extrabold.eot');
-    src: url('../fonts/exo2.0-extrabold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-extrabold.woff') format('woff'),
-         url('../fonts/exo2.0-extrabold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0extra_bold_italic';
-    src: url('../fonts/exo2.0-extrabolditalic.eot');
-    src: url('../fonts/exo2.0-extrabolditalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-extrabolditalic.woff') format('woff'),
-         url('../fonts/exo2.0-extrabolditalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0extra_light';
-    src: url('../fonts/exo2.0-extralight.eot');
-    src: url('../fonts/exo2.0-extralight.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-extralight.woff') format('woff'),
-         url('../fonts/exo2.0-extralight.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0extra_light_italic';
-    src: url('../fonts/exo2.0-extralightitalic.eot');
-    src: url('../fonts/exo2.0-extralightitalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-extralightitalic.woff') format('woff'),
-         url('../fonts/exo2.0-extralightitalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0italic';
-    src: url('../fonts/exo2.0-italic.eot');
-    src: url('../fonts/exo2.0-italic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-italic.woff') format('woff'),
-         url('../fonts/exo2.0-italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0light';
-    src: url('../fonts/exo2.0-light.eot');
-    src: url('../fonts/exo2.0-light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-light.woff') format('woff'),
-         url('../fonts/exo2.0-light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0light_italic';
-    src: url('../fonts/exo2.0-lightitalic.eot');
-    src: url('../fonts/exo2.0-lightitalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-lightitalic.woff') format('woff'),
-         url('../fonts/exo2.0-lightitalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0medium';
-    src: url('../fonts/exo2.0-medium.eot');
-    src: url('../fonts/exo2.0-medium.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-medium.woff') format('woff'),
-         url('../fonts/exo2.0-medium.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0medium_italic';
-    src: url('../fonts/exo2.0-mediumitalic.eot');
-    src: url('../fonts/exo2.0-mediumitalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-mediumitalic.woff') format('woff'),
-         url('../fonts/exo2.0-mediumitalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0regular';
-    src: url('../fonts/exo2.0-regular.eot');
-    src: url('../fonts/exo2.0-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-regular.woff') format('woff'),
-         url('../fonts/exo2.0-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0semi_bold';
-    src: url('../fonts/exo2.0-semibold.eot');
-    src: url('../fonts/exo2.0-semibold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-semibold.woff') format('woff'),
-         url('../fonts/exo2.0-semibold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0semi_bold_italic';
-    src: url('../fonts/exo2.0-semibolditalic.eot');
-    src: url('../fonts/exo2.0-semibolditalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-semibolditalic.woff') format('woff'),
-         url('../fonts/exo2.0-semibolditalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0thin';
-    src: url('../fonts/exo2.0-thin.eot');
-    src: url('../fonts/exo2.0-thin.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-thin.woff') format('woff'),
-         url('../fonts/exo2.0-thin.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'exo_2.0thin_italic';
-    src: url('../fonts/exo2.0-thinitalic.eot');
-    src: url('../fonts/exo2.0-thinitalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/exo2.0-thinitalic.woff') format('woff'),
-         url('../fonts/exo2.0-thinitalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -459,32 +269,9 @@ article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
 }
 
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
 
-.title {
-    font-size: 3em;
-    font-family: Open Sans;
-    color:#555;
-    text-align: center;
-    height:2em;
-    line-height: 2em;
-    font-weight: 100;
-    text-transform: uppercase;
-}
 
 /* Colorful Pricing Tables*/
 
@@ -503,7 +290,6 @@ a {
     min-width: 15.25em;
     list-style: none;
     float: left;
-    font-family: Open Sans;
     box-sizing: border-box;
     overflow:hidden;
 }
@@ -525,7 +311,6 @@ a {
     min-width: 15.25em;
     list-style: none;
     float: left;
-    font-family: Open Sans;
     box-sizing: border-box;
 }
     
@@ -541,7 +326,6 @@ a {
     min-width: 15.25em;
     list-style: none;
     float: left;
-    font-family: Open Sans;
     box-sizing: border-box;
 }
     
@@ -549,22 +333,22 @@ a {
 
 #pricing .basic{
     position: relative;
-    background: #005C5A;
+    background: #558188;
 }
 
 #pricing .premium{
     position: relative;
-    background: #199C7B;
+    background: #5FA292;
 }
 
 #pricing .plus{
     position: relative;
-    background: #F37100;
+    background: #558188;
 }
 
 #pricing .business{
     position: relative;
-    background: #ED4D13;
+    background: #5FA292;
 }
 
 #pricing ul .icon{
@@ -639,7 +423,6 @@ a {
     height:1.5em;
     line-height: 1.25em;
     font-size: 4em;
-    font-family: 'exo_2.0extra_light';
     color: rgba(255, 255, 255, 0.75);
 }
 
@@ -660,90 +443,4 @@ a {
 #pricing ul .description-range{
     height:2em;
     line-height: 2em;
-}
-
-#pricing ul .purchase{
-    height: 3em;
-    line-height: 3em;
-}
-
-#pricing ul .purchase a{
-    position: relative;
-    padding:0.5em;
-    border:4px solid #efefef;
-    color: #fff;
-    text-decoration: none;
-    z-index: 1;
-    -webkit-transition: all 0.25s ease;
-    -moz-transition: all 0.25s ease;
-    -mos-transition: all 0.25s ease;
-    -o-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -mos-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-#pricing ul .purchase a{
-    color:#fff;
-    background:#005C5A;
-    -webkit-box-shadow: inset 0px 0px 0px 0px rgba(239, 239, 239, 1);
-    -moz-box-shadow:    inset 0px 0px 0px 0px rgba(239, 239, 239, 1);
-    box-shadow:         inset 0px 0px 0px 0px rgba(239, 239, 239, 1);
-}
-
-#pricing .premium .purchase a{
-    color:#fff;
-    background:#199C7B;
-}
-
-#pricing .plus .purchase a{
-    color:#fff;
-    background:#F37100;
-}
-
-#pricing .business .purchase a{
-    color:#fff;
-    background:#ED4D13;
-}
-
-#pricing ul .purchase a:hover{
-    color:#005C5A;
-    -webkit-box-shadow: inset 0px -40px 0px 0px rgba(239, 239, 239, 1);
-    -moz-box-shadow:    inset 0px -40px 0px 0px rgba(239, 239, 239, 1);
-    box-shadow:         inset 0px -40px 0px 0px rgba(239, 239, 239, 1);
-}
-
-#pricing .premium .purchase a:hover{
-    color:#199C7B;
-}
-
-#pricing .plus .purchase a:hover{
-    color:#F37100;
-}
-
-#pricing .business .purchase a:hover{
-    color:#ED4D13;
-}
-
-#pricing ul .purchase:before{
-    position: absolute;
-    content: '';
-    background: #efefef;
-    width: 50%;
-    height:1em;
-    bottom:1em;
-    left:25%;
-    transition: all 0.25s ease;
-}
-
-#pricing ul:hover .purchase:before{
-    position: absolute;
-    content: '';
-    background: #efefef;
-    width: 90%;
-    height:1em;
-    left:5%;
 }
