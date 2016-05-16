@@ -126,9 +126,9 @@ header {
 
 .btn-primary {
 	background: none;
-	border: solid 2px #FF8B6C;
+	border: solid 2px #30333C;
 	font-size: 2em;
-	color: #FF8B6C;
+	color: #30333C;
 }
 
 .btn-primary:hover,
@@ -339,25 +339,25 @@ time, mark, audio, video {
 
 #pricing .updates{
     position: relative;
-    background: #558188;
+    background: #EA8F8E;;
     padding-bottom: 40px;
 }
 
 #pricing .single{
     position: relative;
-    background: #5FA292;
+    background: #595C63;
     padding-bottom: 40px;
 }
 
 #pricing .medium{
     position: relative;
-    background: #558188;
+    background: #EA8F8E;
     padding-bottom: 40px;
 }
 
 #pricing .enterprise{
     position: relative;
-    background: #5FA292;
+    background: #595C63;
     padding-bottom: 40px;
 }
 
@@ -380,7 +380,7 @@ time, mark, audio, video {
     right: 0;
     margin: auto;
     font-size: 4em;
-    color: #FF8B6C;
+    color: #30333C;
 }
 
 #pricing ul .name{
@@ -419,6 +419,7 @@ time, mark, audio, video {
 #pricing ul .description-range{
     height:2em;
     line-height: 2em;
+    color: white;
 }
 
 #pricing .btn-primary {
