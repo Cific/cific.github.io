@@ -365,52 +365,15 @@ time, mark, audio, video {
     color: #FF8B6C;
 }
 
-#pricing .updates .icon:before{
+#pricing i {
     position: absolute;
     top: .8em;
     bottom: 0;
     left: -0.15em;
     right: 0;
     margin: auto;
-    content:'\f1d8';
-    font-family: FontAwesome;
     font-size: 4em;
-}
-
-#pricing .single .icon:before{
-    position: absolute;
-    top: .9em;
-    bottom: 0;
-    left: 0.05em;
-    right: 0;
-    margin: auto;
-    content:'\f108';
-    font-family: FontAwesome;
-    font-size: 4em;
-}
-
-#pricing .medium .icon:before{
-    position: absolute;
-    top: .75em;
-    bottom: 0;
-    left: 0em;
-    right: 0;
-    margin: auto;
-    content:'\f087';
-    font-family: FontAwesome;
-    font-size: 4em;
-}
-
-#pricing .enterprise .icon:before{
-    position: absolute;
-    top: .75em;
-    bottom: 0;
-    left: -0.1em;
-    right: 0;
-    margin: auto;
-    content:'\f135';
-    font-family: FontAwesome;
-    font-size: 4em;
+    color: #FF8B6C;
 }
 
 #pricing ul .name{
