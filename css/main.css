@@ -413,3 +413,7 @@ time, mark, audio, video {
     height:2em;
     line-height: 2em;
 }
+
+#pricing .btn-primary {
+    font-size: 1em;
+}
