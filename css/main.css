@@ -363,6 +363,9 @@ time, mark, audio, video {
       color: #EA8F8E;
 }
 
+#pricing .single .btn-primary a:hover {
+    background-color: #FEEED5;
+}
 
 #pricing .medium{
     position: relative;
@@ -382,9 +385,9 @@ time, mark, audio, video {
     color: #EA8F8E;
 }
 
-
-
-
+#pricing .enterprise .btn-primary a:hover {
+    background-color: #FEEED5;
+}
 
 
 #pricing ul .icon{
