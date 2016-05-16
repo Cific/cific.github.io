@@ -23,9 +23,17 @@ header {
     background-image: none;
     background-color: #30333C;
     
+}
+
+.inside-header .btn-primary{
+	background: none;
+	border: solid 2px white;
+	font-size: 2em;
+	color: white;
 	
 	
 }
+
 
 .main-nav li,
 .brand-name {
