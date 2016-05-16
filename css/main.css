@@ -276,6 +276,10 @@ time, mark, audio, video {
 #pricing {
     position:relative;
     width:100%;
+    margin:0em auto;
+    cursor: default;
+    user-select: none;
+	overflow:hidden;
 }
 
 #pricing ul {
@@ -353,7 +357,6 @@ time, mark, audio, video {
     height:10em;
     width: 10em;
     margin:1em auto;
-    margin-top: 0;
 }
 
 .icon:before {
@@ -410,6 +413,5 @@ time, mark, audio, video {
 }
 
 #pricing .btn-primary {
-    margin-top: 1em;
     font-size: 1em;
 }
