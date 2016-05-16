@@ -358,8 +358,10 @@ time, mark, audio, video {
 }
 
 #pricing .single .btn-primary{
-       border: #EA8F8E;
-       color: #EA8F8E;
+       background: none;
+      border: solid 2px #EA8F8E;
+      font-size: 2em;
+      color: #EA8F8E;
 }
 
 
@@ -376,9 +378,13 @@ time, mark, audio, video {
 }
 
 #pricing .enterprise .btn-primary{
-       border: #EA8F8E;
-       color: #EA8F8E;
+    background: none;
+    border: solid 2px #EA8F8E;
+    font-size: 2em;
+    color: #EA8F8E;
 }
+
+
 
 
 
