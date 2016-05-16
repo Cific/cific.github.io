@@ -357,6 +357,12 @@ time, mark, audio, video {
     padding-bottom: 40px;
 }
 
+#pricing .single .btn-primary{
+       border: #EA8F8E;
+       color: #EA8F8E;
+}
+
+
 #pricing .medium{
     position: relative;
     background: #EA8F8E;
@@ -368,6 +374,14 @@ time, mark, audio, video {
     background: #595C63;
     padding-bottom: 40px;
 }
+
+#pricing .enterprise .btn-primary{
+       border: #EA8F8E;
+       color: #EA8F8E;
+}
+
+
+
 
 #pricing ul .icon{
     position: relative;
