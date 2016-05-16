@@ -363,7 +363,7 @@ time, mark, audio, video {
       color: #EA8F8E;
 }
 
-#pricing .single .btn-primary:hover a:hover {
+#pricing .single .btn-primary:hover {
     background-color: #FEEED5;
 }
 
@@ -385,7 +385,7 @@ time, mark, audio, video {
     color: #EA8F8E;
 }
 
-#pricing .enterprise .btn-primary:hover a:hover {
+#pricing .enterprise .btn-primary:hover {
     background-color: #FEEED5;
 }
 
