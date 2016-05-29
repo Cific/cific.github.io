@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Portfolio - Cific Labs</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abel|Open+Sans|Roboto+Mono|Quicksand|Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
+  </head>
+  <body>
+    <header id="top" data-stellar-background-ratio="0.3">
+      <div class="inside-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-1">
+              <a href="#top" class="brand-name">Cific Labs</a>
+            </div>
+            <div class="col-md-12 text-center">
+              <nav id="desktop-menu">
+                <ul class="main-nav list-inline">
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#process">Our Process</a></li>
+                  <li><a href="#pricing">Pricing</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+              <div id="mobile-menu-wrapper">
+                <div id="closed-icon">
+                  <a><i class="fa fa-bars" aria-hidden="true"></i></a>
+                </div>
+                <div id="open-icon"><a><i class="fa fa-times" aria-hidden="true"></i></a>
+                </div>
+                <div id="mobile-menu">
+                  <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#process">Our Process</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1><div class="taglines">Our Work</div></h1>
+              <a class="btn btn-primary" href="#services">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Robotix Education</h2>
+            Image goes here
+            <p>Blab about Robotix Education</p>
+          </div>
+          <div class="col-md-6">
+            <h2>Blue Sky Airlines Concept</h2>
+            Image goes here
+            <p>Blab about concept</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h2>Contact</h2>
+            <p class="lead">Need more information? Ready to start a project? Get in touch. We look forward to hearing from you.</p>
+            <a class="btn btn-primary" href="mailto:sebastian.d.hammer@gmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+          <p>Copyright &copy; Rhys Bower &amp; Sebastian Hammer 2016</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+      /*$(function(){
+        $(".taglines").typed({
+          strings: ["Navigate complexity.", "Never settle.", "Create and refine."],
+          typeSpeed: 50,
+          backSpeed: 50,
+          backDelay: 500,
+          loop: true
+        });
+      });
+      $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });*/
+
+      $.stellar();
+
+      if($("#mobile-menu").is(":hidden")){
+        $("#closed-icon").click(function(){
+              $("#mobile-menu").slideDown(300);
+              $("#closed-icon").hide();
+              $("#open-icon").show();
+        });
+      }
+
+      $("#open-icon").click(function(){
+              $("#mobile-menu").slideUp(300);
+              $("#closed-icon").show();
+              $("#open-icon").hide();
+       });
+
+    </script>
+  </body>
+</html>

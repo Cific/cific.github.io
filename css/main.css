@@ -48,7 +48,8 @@ header {
 
 .main-nav li a,
 .brand-name,
-#mobile-menu li a {
+#mobile-menu li a,
+a {
 	color: #FF8B6C;
 }
 
@@ -56,7 +57,9 @@ header {
 .main-nav li a:focus,
 .brand-name:hover,
 #mobile-menu li a:hover,
-#mobile-menu li a:focus {
+#mobile-menu li a:focus,
+a:hover,
+a:focus {
 	color: #FEEED5;
 	text-decoration: none;
 }
